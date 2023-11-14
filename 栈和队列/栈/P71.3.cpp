@@ -1,5 +1,8 @@
-﻿#include <iostream>
+// include 用来导包的
+#include <iostream>
 #include <vector>
+
+//命名空间用于区分相同名称的文件
 using namespace std;
 
 //P71.3
@@ -13,7 +16,7 @@ using namespace std;
 //2)通过对1)的分析, 写出一个算法, 判定所给的操作序列是否合法。若合法, 返回true
 //否则返回 false(假定被判定的操作序列已存入一维数组中)
 
-
+//宏类似于起到文本替换的效果，使用 _for(i,a,b) 会被认为调用 for(int i=(a);i<(b);i++) ，这里的括号是为了保证在传参计算的时候计算的优先级。
 #define _for(i,a,b) for(int i=(a);i<(b);i++)
 
 //P71.3
